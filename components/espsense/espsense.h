@@ -6,6 +6,7 @@
 #include "esphome/core/component.h"
 #include "esphome/core/helpers.h"
 #include "esphome/core/log.h"
+#include "ArduinoJson-v5.13.5.h"
 
 #ifdef ARDUINO_ARCH_ESP32
 #include "AsyncUDP.h"
